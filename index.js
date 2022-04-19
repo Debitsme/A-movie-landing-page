@@ -30,7 +30,11 @@ function showMovie(movies) {
 
 
       <span class="${run(movie.vote_average)}">${movie.vote_average}</span>
-  </div> `;
+  </div> 
+  <div class="overview">
+  <h3>Overview</h3>
+  ${movie.overview}</div>
+  `;
 
     main.append(img);
   });
